@@ -15,18 +15,18 @@
         .background-image {
             position: fixed;
             right: 10px;
-            bottom: 10px;
+            bottom: 10px; /* 오른쪽 아래에 위치 */
             width: 150px; /* 이미지 크기 조정 */
-            z-index: -1; /* 컨텐츠 위로 가게 설정 */
+            z-index: 1; /* 컨텐츠 위로 가게 설정 */
         }
         .text-overlay {
             position: fixed;
             right: 10px;
-            bottom: 10px;
+            bottom: 10px; /* 오른쪽 아래에 위치 */
             margin-right: 160px; /* 이미지 크기만큼 오른쪽 여백 추가 */
             color: #333;
             font-size: 14px;
-            z-index: 1;
+            z-index: 2; /* 이미지 위로 가게 설정 */
         }
         .text-overlay .line1 {
             font-weight: bold;
